@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "app.py": {
+    "api/app.py": {
       "excludeFiles": "{.venv/**,__pycache__/**,Dockerfile,填表機器人.yml,空白範本.pdf}"
     }
   }
